@@ -4,12 +4,13 @@
 }
 
 body {
-  z-index: 1;
   display: flex;
+  flex-wrap: wrap;
   background-image: url(images/Sitio.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 920px;
+  height: 100%;
+  margin-bottom: 30px;
 }
 
 header {
@@ -32,25 +33,36 @@ header section{
 }
 
 main {
-  z-index: 2;
   display: flex;
+  justify-content: center;
+  align-items: start;
   margin: 0 auto;
+  flex-wrap: wrap;
   margin-top: 100px;
   border-radius: 30px;
   width: 85%;
-  height: 85%;
+  height: 100%;
+  flex-wrap: wrap;
   background-color: rgba(240, 248, 255, 0.254);
 }
 
 main section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#secOptions {
   display: flex;
   width: 100%;
+  height: 130px;
   flex-direction: row;
   justify-content: center;
 }
 
 #containerDeOpcoes {
-    display: flex;
+  display: flex;
   margin: 30px;
   height: 80px;
   border-radius: 50px;
@@ -58,4 +70,27 @@ main section {
   justify-content: space-around;
   align-items: center;
   background-color: rgba(240, 248, 255, 0.361);
+}
+
+#secPhotos {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main img {
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    border: solid black 3px;
+}
+
+footer {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  margin: 30px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: rgba(198, 198, 198, 0.401);
 }
