@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  height: 920px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  width: 90%;
+  height: 100px;
+  background-color: rgba(21, 20, 20, 0.631);
+  border-radius: 50px;
+}
+
+header img {
+  width: 80px;
+  border-radius: 100%;
+}
+
+header h1 {
+  color: white;
+  font-variant: small-caps;
+}
+
+main {
+  width: 80%;
+  height: 80%;
+  background-color: rgba(21, 20, 20, 0.631);
+  border-radius: 30px;
+}
